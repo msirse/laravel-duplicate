@@ -1,5 +1,5 @@
 {
-    "name": "neurony/laravel-duplicate",
+    "name": "msirse/laravel-duplicate",
     "description": "Duplicate any Eloquent model along with its underlying relationships",
     "license": "MIT",
     "keywords": [
@@ -31,12 +31,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Neurony\\Duplicate\\": "src/"
+            "Msirse\\Duplicate\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Neurony\\Duplicate\\Tests\\": "tests"
+            "Msirse\\Duplicate\\Tests\\": "tests"
         },
         "classmap": [
             "tests/TestCase.php"

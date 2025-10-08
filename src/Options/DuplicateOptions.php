@@ -1,6 +1,6 @@
 <?php
 
-namespace Neurony\Duplicate\Options;
+namespace Msirse\Duplicate\Options;
 
 use Exception;
 use Illuminate\Support\Arr;
@@ -78,7 +78,7 @@ class DuplicateOptions
     }
 
     /**
-     * Set the $excludedColumns to work with in the Neurony\Duplicate\Traits\HasDuplicates trait.
+     * Set the $excludedColumns to work with in the Msirse\Duplicate\Traits\HasDuplicates trait.
      *
      * @param array|string $columns
      * @return DuplicateOptions
@@ -91,7 +91,7 @@ class DuplicateOptions
     }
 
     /**
-     * Set the $uniqueColumns to work with in the Neurony\Duplicate\Traits\HasDuplicates trait.
+     * Set the $uniqueColumns to work with in the Msirse\Duplicate\Traits\HasDuplicates trait.
      *
      * @param array|string $columns
      * @return DuplicateOptions
@@ -104,7 +104,7 @@ class DuplicateOptions
     }
 
     /**
-     * Set the $excludedRelations to work with in the Neurony\Duplicate\Traits\HasDuplicates trait.
+     * Set the $excludedRelations to work with in the Msirse\Duplicate\Traits\HasDuplicates trait.
      *
      * @param array|string $relations
      * @return DuplicateOptions
@@ -117,7 +117,7 @@ class DuplicateOptions
     }
 
     /**
-     * Set the $excludedRelationColumns to work with in the Neurony\Duplicate\Traits\HasDuplicates trait.
+     * Set the $excludedRelationColumns to work with in the Msirse\Duplicate\Traits\HasDuplicates trait.
      *
      * Param $columns:
      * --- associative array with keys containing each relation name and values (array) containing the excluded columns for each relation.
@@ -133,7 +133,7 @@ class DuplicateOptions
     }
 
     /**
-     * Set the $uniqueRelationColumns to work with in the Neurony\Duplicate\Traits\HasDuplicates trait.
+     * Set the $uniqueRelationColumns to work with in the Msirse\Duplicate\Traits\HasDuplicates trait.
      *
      * Param $columns:
      * --- associative array with keys containing each relation name and values (array) containing the unique columns for each relation.
@@ -149,7 +149,7 @@ class DuplicateOptions
     }
 
     /**
-     * Set the $shouldDuplicateDeeply to work with in the Neurony\Duplicate\Traits\HasDuplicates trait.
+     * Set the $shouldDuplicateDeeply to work with in the Msirse\Duplicate\Traits\HasDuplicates trait.
      *
      * @return DuplicateOptions
      */

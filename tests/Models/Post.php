@@ -1,10 +1,10 @@
 <?php
 
-namespace Neurony\Duplicate\Tests\Models;
+namespace Msirse\Duplicate\Tests\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use Neurony\Duplicate\Options\DuplicateOptions;
-use Neurony\Duplicate\Traits\HasDuplicates;
+use Msirse\Duplicate\Options\DuplicateOptions;
+use Msirse\Duplicate\Traits\HasDuplicates;
 
 class Post extends Model
 {

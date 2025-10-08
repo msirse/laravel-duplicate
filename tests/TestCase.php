@@ -1,12 +1,12 @@
 <?php
 
-namespace Neurony\Duplicate\Tests;
+namespace Msirse\Duplicate\Tests;
 
 use Carbon\Carbon;
 use Illuminate\Contracts\Foundation\Application;
-use Neurony\Duplicate\Tests\Models\Post;
-use Neurony\Duplicate\Tests\Models\Review;
-use Neurony\Duplicate\Tests\Models\Tag;
+use Msirse\Duplicate\Tests\Models\Post;
+use Msirse\Duplicate\Tests\Models\Review;
+use Msirse\Duplicate\Tests\Models\Tag;
 use Orchestra\Testbench\TestCase as Orchestra;
 
 abstract class TestCase extends Orchestra

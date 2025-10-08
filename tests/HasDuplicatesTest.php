@@ -1,12 +1,12 @@
 <?php
 
-namespace Neurony\Duplicate\Tests;
+namespace Msirse\Duplicate\Tests;
 
-use Neurony\Duplicate\Options\DuplicateOptions;
-use Neurony\Duplicate\Tests\Models\Comment;
-use Neurony\Duplicate\Tests\Models\Post;
-use Neurony\Duplicate\Tests\Models\Review;
-use Neurony\Duplicate\Tests\Models\Tag;
+use Msirse\Duplicate\Options\DuplicateOptions;
+use Msirse\Duplicate\Tests\Models\Comment;
+use Msirse\Duplicate\Tests\Models\Post;
+use Msirse\Duplicate\Tests\Models\Review;
+use Msirse\Duplicate\Tests\Models\Tag;
 
 class HasDuplicatesTest extends TestCase
 {
